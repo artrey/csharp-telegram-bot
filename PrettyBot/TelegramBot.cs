@@ -8,7 +8,7 @@ namespace PrettyBot
     {
         private readonly RestClient _client = new RestClient();
         private readonly string _baseUrl;
-        private int _lastUpdateId = 0;
+        private int _lastUpdateId;
         
         public TelegramBot(string token)
         {
